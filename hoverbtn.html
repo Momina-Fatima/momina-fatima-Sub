@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu bar and drop down button</title>
+	
+</head>
+  <style>
+
+	body{
+		
+		margin: 0;
+	}
+	h1{
+		background-color: aliceblue;
+	}
+	button{
+		cursor: pointer;
+	}
+	a{
+		text-decoration: none;
+		color: brown;
+		display: block;
+	}
+	.cont{
+		display: block;
+	}
+	button{
+		border: none;
+		
+	}
+	.cont{
+		display: none;
+	}
+	button:hover  .cont{
+		color: red;
+		display: block;
+	}
+	
+  </style>
+<body >
+	<center>
+	<h1>Online Store</h1>
+
+<header>
+	<button>Fabric
+		<div class="cont">
+			<a href="#">1 Piece Fabric</a>
+			<a href="#">2 Piece Fabric</a>
+			<a href="#">3 Piece Fabric</a>
+		</div>
+	</button>
+	<button>New Collection
+		<div class="cont">
+			<a href="#">Summer Collection</a>
+			<a href="#">Winter Collection</a>
+			<a href="#" _blank>Spring Collectin</a>
+		</div>
+	</button>
+	<p>Thanks for visiting us</p>
+</center>
+</header>
+
+</body>
+</html>

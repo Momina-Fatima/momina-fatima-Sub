@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Records of Students</title>
+<body>
+<h1  style="background-color:green"><center>Creating Table in HTML</h1>
+<h2  style="background-color:green"><center>Using COLSPAN & ROWSPAN</h2>
+<table border="2">
+<tr style="background-color:yellow">
+<td rowspan="2>Name</td>
+</tr>
+<tr style="background-color:yellow">
+<td colspan="10"><center>Total Marks=800</td>
+</tr>
+<tr style="background-color:blue">
+<td>Python</td>
+<td>C++ & Ebedded hardware</td>
+<td>JAVA With Advance OOP</td>
+<td>Web Programing</td>
+<td>Machine Learning</td>
+<td>Julia & Data Science</td>
+<td>C= & Unity</td>
+<td>Database Designing</td>
+<td style="background-color:red">Total Obtained Marks</td>
+</tr>
+<tr>
+<td>1 Student</td>
+<td>80</td>
+<td>74</td>
+<td>80</td>
+<td>74</td>
+<td>80</td>
+<td>74</td>
+<td>80</td>
+<td>74</td>
+</tr>
+</table>
+</body>
+</html>

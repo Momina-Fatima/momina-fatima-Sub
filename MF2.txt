@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>Table</title>
+</head>
+<body>
+<table>
+<tr><th>Name</th>
+<th>Age</th>
+<th>City</th>
+<body style="background-color:light blue;font-color:grey">
+</tr>
+<tr><td>Asma></td>
+<td>20</td>
+<td>Isb</td>
+<body style="background-color:blue;font-color:black">
+</tr>
+<tr><td>Amna</td>
+<td>21</td>
+<td>Rwp</td>
+<body style="background-color:light orange;font-color:black">
+</tr>
+</table>
+</body>
+</html>
